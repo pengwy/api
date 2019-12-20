@@ -35,10 +35,10 @@ db.close = function(connection){
 db.connection = function(){
     //数据库配置
     let connection = mysql.createConnection({
-        host:'123.207.163.65',
+        host:'localhost',
         user:'root',
-        password:'Pengyong.920915',
-        // password:'root',
+        // password:'Pengyong.920915',
+        password:'111111',
         database:'myhome',
         port:3306,
         dateStrings: true  //将时间转换为字符串
